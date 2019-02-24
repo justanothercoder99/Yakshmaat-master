@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "232815431451",
+    "firebase_url": "https://v7firebaseproject.firebaseio.com",
+    "project_id": "v7firebaseproject",
+    "storage_bucket": "v7firebaseproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:232815431451:android:382f2bdc2b401ccf",
+        "android_client_info": {
+          "package_name": "com.example.health.v7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "232815431451-8qhsvu986i61gjtoc3khnbn6ulbf1g51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.health.v7",
+            "certificate_hash": "5caced26a101208de99f3d10dfcd68c9feb25bb5"
+          }
+        },
+        {
+          "client_id": "232815431451-ie6japvmhj7qpecf0257smf1hrckka62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlScbVukOKzpw4_g2XjSqtr9m8fvWABUY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "232815431451-ie6japvmhj7qpecf0257smf1hrckka62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

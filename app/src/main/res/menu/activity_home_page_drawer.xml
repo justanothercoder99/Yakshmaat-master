@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_patient_data"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/submit_patient_data" />
+        <item
+            android:id="@+id/menu_overview"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/training" />
+        <item
+            android:id="@+id/menu_hospital_details"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/certified_rhcp" />
+        <item
+            android:id="@+id/menu_help"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/help" />
+
+        <item
+            android:id="@+id/menu_about"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/about" />
+
+    </group>
+</menu>

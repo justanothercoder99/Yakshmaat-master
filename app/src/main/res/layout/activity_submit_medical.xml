@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".submit_medical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp">
+
+        <RadioGroup
+            android:id="@+id/radioHIV"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView23"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="73dp"
+            android:layout_marginRight="73dp">
+
+            <RadioButton
+                android:id="@+id/radioMale3"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioFemale3"
+                android:layout_width="68dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioMarriage"
+                android:layout_alignLeft="@+id/radioMarriage"
+                android:checked="true"
+                android:text="No"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <RadioButton
+                android:id="@+id/radioUnknown"
+                android:layout_width="match_parent"
+                android:layout_height="22dp"
+                android:text="Unknown" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/radioPyra"
+            android:layout_width="124dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="370dp"
+            android:layout_marginEnd="105dp"
+            android:layout_marginRight="105dp">
+
+            <RadioButton
+                android:id="@+id/radioMale5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioFemale5"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioMarriage"
+                android:layout_alignLeft="@+id/radioMarriage"
+                android:checked="true"
+                android:text="No"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <RadioButton
+                android:id="@+id/radioUnknown3"
+                android:layout_width="106dp"
+                android:layout_height="22dp"
+                android:text="Unknown" />
+
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="840dp"
+            android:text="Ethambutol" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="154dp"
+            android:layout_marginLeft="154dp"
+            android:layout_marginTop="797dp"
+            android:text="Pyrazinamide" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="839dp"
+            android:text="Rifampicin" />
+
+        <RadioGroup
+            android:id="@+id/radioPrevTB"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="161dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginRight="58dp">
+
+            <RadioButton
+                android:id="@+id/radioMale1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioFemale1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioMarriage"
+                android:layout_alignLeft="@+id/radioMarriage"
+                android:checked="true"
+                android:text="No"
+                tools:ignore="ObsoleteLayoutParam" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="Enter the Medical History of the Patient"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="61dp"
+            android:text="New TB Patient?" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="161dp"
+            android:text="Previously treated TB Patient" />
+
+        <RadioGroup
+            android:id="@+id/radionewTB"
+            android:layout_width="72dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="65dp"
+            android:layout_marginEnd="131dp"
+            android:layout_marginRight="131dp">
+
+            <RadioButton
+                android:id="@+id/radioMale2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioFemale2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/radioMarriage"
+                android:layout_alignLeft="@+id/radioMarriage"
+                android:checked="true"
+                android:text="No"
+                tools:ignore="ObsoleteLayoutParam" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="257dp"
+            android:text="Previous Exposure to Infections if any -" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignRight="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="47dp"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="295dp"
+            android:layout_marginEnd="-7dp"
+            android:layout_marginRight="-7dp"
+            android:ems="10"
+            android:hint="Enter previous exposure details"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="371dp"
+            android:text="HIV Positive?" />
+
+        <RadioGroup
+            android:id="@+id/radioTreat"
+            android:layout_width="271dp"
+            android:layout_height="111dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="932dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginRight="12dp">
+
+            <RadioButton
+                android:id="@+id/radioMale4"
+                android:layout_width="231dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Isoniazid and Rifampicin" />
+
+            <RadioButton
+                android:id="@+id/radioFemale4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Isoniazid, Rifampicin and Ethambutol"
+                tools:ignore="ObsoleteLayoutParam" />
+
+            <RadioButton
+                android:id="@+id/radioUnknown2"
+                android:layout_width="243dp"
+                android:layout_height="49dp"
+                android:text="Isoniazid, Rifampicin, Pyrazinamide and Ethambutol" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="475dp"
+            android:text="Diagnostic Tests done if any -" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-22dp"
+            android:layout_marginLeft="-22dp"
+            android:layout_marginTop="621dp"
+            android:text="Treatment Provided"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="19dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="663dp"
+            android:text="How long has the patient undergone treatment under you" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView13"
+            android:layout_alignRight="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="172dp"
+            android:layout_marginLeft="172dp"
+            android:layout_marginTop="706dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginRight="-1dp"
+            android:ems="10"
+            android:hint="Enter the time period"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="763dp"
+            android:text="Select the drugs provided till now" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView13"
+            android:layout_alignLeft="@+id/textView13"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="797dp"
+            android:text="Isonizid" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox4"
+            android:layout_alignStart="@+id/textView20"
+            android:layout_alignLeft="@+id/textView20"
+            android:layout_marginStart="-2dp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginTop="29dp"
+            android:text="Anti TB FDC's provided until now if any -" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioTreat"
+            android:layout_alignStart="@+id/textView22"
+            android:layout_alignLeft="@+id/textView22"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="99dp"
+            android:layout_marginRight="99dp"
+            android:text="Is the patient resistant to Pyrazinamide?" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radioHIV"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="303dp"
+            android:layout_marginEnd="144dp"
+            android:layout_marginRight="144dp"
+            android:layout_toEndOf="@+id/textView14"
+            android:layout_toRightOf="@+id/textView14"
+            android:text="Submit" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="502dp"
+            android:text="TB Skin Test" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="539dp"
+            android:text="None" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="138dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/checkBox6"
+            android:layout_alignEnd="@+id/checkBox6"
+            android:layout_marginTop="-68dp"
+            android:layout_marginEnd="-185dp"
+            android:text="TB Blood Test" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/textView16"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="1255dp"
+            android:layout_marginEnd="-24dp"
+            android:ems="10"
+            android:hint="Treatment"
+            android:inputType="textPersonName"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/editText"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-34dp"
+            android:layout_marginTop="1207dp"
+            android:text="Specify other methods provided if applicable"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textView21"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="1340dp"
+            android:text="Was the treatment successful?"
+            android:textSize="16sp" />
+
+
+        <RadioGroup
+            android:id="@+id/radioSuc"
+            android:layout_width="77dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="1380dp"
+            android:layout_marginEnd="92dp"
+            android:layout_marginRight="92dp"
+            android:layout_marginBottom="520dp">
+
+            <RadioButton
+                android:id="@+id/radioMale6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Yes" />
+
+            <RadioButton
+                android:id="@+id/radioFemale6"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="No" />
+
+        </RadioGroup>
+
+    </RelativeLayout>
+
+</ScrollView>

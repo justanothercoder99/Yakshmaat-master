@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yakshmaat</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="you_are_recognized_as_a_legal_rural_healthcare_provider_by_the_government_of_india_incentive_of_rs_150_on_every_tb_patient_data_by_the_rhcp_and_free_medicines_for_the_first_10_tb_patients_receive_diagnostic_kits_for_tb_skin_test_at_subsidized_rate_receive_anti_tb_fdc_s_for_tb_at_a_subsidized_rate_receive_support_from_the_government_during_an_epidemic_emergency_in_your_area">• You are recognized as a legal rural healthcare provider by the government of India. • Incentive of Rs. 150 on every TB patient data by the RHCP and free medicines for the first 10 TB patients. • Receive diagnostic kits for TB skin test at subsidized rate. • Receive anti-TB FDC’s for TB at a subsidized rate. • Receive support from the government during an epidemic emergency in your area.</string>
+    <string name="congratulations_on_becoming_a_certified_rural_health_care_provider_rhcp_n_benefits_of_becoming_a_rhcp">Congratulations on becoming a certified Rural Health Care Provider (RHCP).  Benefits of becoming a RHCP-</string>
+    <string name="are_you_a_certified_rhcp">Are you a certified RHCP?</string>
+    <string name="become_a_certified_legal_rural_healthcare_provider_rhcp_by_attending_these_free_training_programs_to_receive_benefits_from_the_government">Become a certified legal rural healthcare provider (RHCP) by attending these free training programs to receive benefits from the government.</string>
+    <string name="you_become_a_certified_rhcp_only_upon_completion_of_all_these_training_programs">You become a certified RHCP only upon completion of all these training programs.</string>
+    <string name="submit_patient_data">Submit Patient Data</string>
+    <string name="training">Training</string>
+    <string name="certified_rhcp">Certified RHCP</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+
+    //home
+    <string name="home">Welcome to YAKSHMAAT, an anonymous TB reporting portal which connects Information Providers to the government for a better and effective TB treatment plan. </string>
+    <string name="cl">Change Language</string>
+    <string name="about_content">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\tYAKSHMAAT\n
+An app based on eradication of Tuberculosis from India.\n
+Creators -\n
+Anika\n
+Shrushti\n
+Aneesh\n
+Hariharan\n
+</string>
+
+    //rhcp
+    <string name="rhcpf_congo">Congratulations on becoming a certified Rural Health Care Provider (RHCP)</string>
+    <string name="rhcpf_info">•  You are recognized as a legal rural healthcare provider by the government of India.\n•  Receive incentive of Rs. 150 on your every TB patient data input. \n•  Receive free medicines for the first 10 valid patient data inputs.\n•  Receive diagnostic kits for TB skin test at subsidized rate.\n•  Receive anti-TB FDC’s for TB at a subsidized rate.\n•	 Receive support from the government during an epidemic emergency in your area.</string>
+    <string name="rhcpf_info2">Benefits of becoming a RHCP -</string>
+    <string name="rhcp_header">RHCP Options</string>
+    <string name="rhcp_p_i">RHCP Profile Info</string>
+    <string name="ph">Patient History</string>
+    <string name="order">Orders</string>
+    <string name="incent_stat">Incentive Status</string>
+
+    //help
+    <string name="hs">Help Section</string>
+    <string name="cntb">Contact National TB program -</string>
+    <string name="hntb">Helpline number of Yakshmaat - 9834046436</string>
+
+    //submitpatient
+    <string name="choose">Choose how you want to enter data</string>
+    <string name="anon">Report Anonymously</string>
+    <string name="log_in">Log In as RHCP</string>
+
+    //training
+    <string name="training_info">Free training on basics of human anatomy and physiology - happening in Katpadi on 19th December,2018.\n
+Free training on maternal and child health care - happening in Katpadi on 19th December,2018.\n
+Free training on medical diagnostics - happening in Katpadi on 19th December,2018.\n
+Free training on TB diagnosis, treatment - happening in Katpadi on 19th December,2018.\n
+Free training on HIV diagnosis treatment - happening in Katpadi on 19th December,2018.\n
+Free training on Swine flu diagnosis treatment - happening in Katpadi on 19th December,2018.</string>
+
+</resources>

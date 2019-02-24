@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yakshmaat</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="you_are_recognized_as_a_legal_rural_healthcare_provider_by_the_government_of_india_incentive_of_rs_150_on_every_tb_patient_data_by_the_rhcp_and_free_medicines_for_the_first_10_tb_patients_receive_diagnostic_kits_for_tb_skin_test_at_subsidized_rate_receive_anti_tb_fdc_s_for_tb_at_a_subsidized_rate_receive_support_from_the_government_during_an_epidemic_emergency_in_your_area">• आप भारत सरकार द्वारा एक कानूनी ग्रामीण स्वास्थ्य सेवा प्रदाता के रूप में पहचाने जाते हैं। • रुपये का प्रोत्साहन। आरएचसीपी द्वारा प्रत्येक टीबी रोगी के डेटा पर 150 और पहले 10 टीबी रोगियों के लिए मुफ्त दवाएं • रियायती दर पर टीबी त्वचा परीक्षण के लिए नैदानिक ​​किट प्राप्त करें। • टीबी के लिए एंटी टीबी एफडीसी को अनुदानित दर पर प्राप्त करें। • अपने क्षेत्र में एक महामारी आपातकाल के दौरान सरकार से समर्थन प्राप्त करें।</string>
+    <string name="congratulations_on_becoming_a_certified_rural_health_care_provider_rhcp_n_benefits_of_becoming_a_rhcp">-प्रमाणित ग्रामीण स्वास्थ्य देखभाल प्रदाता (आरएचसीपी) बनने के लिए बधाई। आरएचसीपी बनने के फायदे-</string>
+    <string name="are_you_a_certified_rhcp">क्या आप प्रमाणित आरएचसीपी हैं?</string>
+    <string name="become_a_certified_legal_rural_healthcare_provider_rhcp_by_attending_these_free_training_programs_to_receive_benefits_from_the_government">सरकार से लाभ प्राप्त करने के लिए इन मुफ्त प्रशिक्षण कार्यक्रमों में भाग लेने के लिए एक प्रमाणित कानूनी ग्रामीण स्वास्थ्य सेवा प्रदाता (RHCP) बनें।</string>
+    <string name="you_become_a_certified_rhcp_only_upon_completion_of_all_these_training_programs">आप इन सभी प्रशिक्षण कार्यक्रमों के पूरा होने पर ही एक प्रमाणित आरएचसीपी बन जाते हैं।</string>
+    <string name="submit_patient_data">पेशेंट डेटा जमा करें</string>
+    <string name="training">ट्रेनिंग</string>
+    <string name="certified_rhcp">प्रमाणित आरएचसीपी</string>
+    <string name="help">मदद</string>
+    <string name="about">बारे में</string>
+
+    //home
+    <string name="home">आपका स्वागत है YAKSHMAAT, एक गुमनाम टीबी रिपोर्टिंग पोर्टल जो बेहतर और प्रभावी टीबी उपचार योजना के लिए सरकार को सूचना प्रदाताओं से जोड़ता है।</string>
+
+    //settings
+    <string name="cl">भाषा चुनें</string>
+    <string name="about_content">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t<b>यक्षमात</b>\n
+भारत से क्षय रोग के उन्मूलन पर आधारित एक ऐप।\n
+निर्माता -\n
+अनिका\n
+श्रुष्टी\n
+अनीश\n
+हरिहरन\n
+</string>
+
+    //rhcp
+    <string name="rhcpf_congo">प्रमाणित ग्रामीण स्वास्थ्य देखभाल प्रदाता (आरएचसीपी) बनने के लिए बधाई</string>
+    <string name="rhcpf_info">•  आप भारत सरकार द्वारा एक कानूनी ग्रामीण स्वास्थ्य सेवा प्रदाता के रूप में पहचाने जाते हैं।\n•  अपने प्रत्येक टीबी रोगी डेटा इनपुट पर 150 रुपये का प्रोत्साहन प्राप्त करें। \n•  पहले 10 वैध रोगी डेटा इनपुट के लिए मुफ्त दवाएं प्राप्त करें। \n•  रियायती दर पर टीबी त्वचा परीक्षण के लिए नैदानिक ​​किट प्राप्त करें। \n•  टीबी के लिए एंटी-टीबी एफडीसी को अनुदानित दर पर प्राप्त करें। \n•	 अपने क्षेत्र में एक महामारी आपातकाल के दौरान सरकार से समर्थन प्राप्त करें।</string>
+    <string name="rhcpf_info2">आरएचसीपी बनने के फायदे -</string>
+    <string name="rhcp_header">आरएचसीपी विकल्प</string>
+    <string name="rhcp_p_i">आरएचसीपी प्रोफ़ाइल जानकारी</string>
+    <string name="ph">पेशेंट इतिहास</string>
+    <string name="order">व्यवस्था</string>
+    <string name="incent_stat">प्रोत्साहन की स्थिति</string>
+
+    //help
+    <string name="hs">मदद अनुभाग</string>
+    <string name="cntb">राष्ट्रीय टीबी कार्यक्रम से संपर्क करें -</string>
+    <string name="hntb">यक्षमात का हेल्पलाइन नंबर - 9834046436</string>
+
+    //submitpatient
+    <string name="choose">चुनें कि आप डेटा कैसे दर्ज करना चाहते हैं</string>
+    <string name="anon">गुमनाम रूप से रिपोर्ट करें</string>
+    <string name="log_in">आरएचसीपी के रूप में लॉगिन करें</string>
+
+    //training
+    <string name="training_info">मानव शरीर रचना विज्ञान और शरीर विज्ञान की बुनियादी बातों पर मुफ्त प्रशिक्षण - 19 दिसंबर, 2018 को काटपाडी में हो रहा है।\n
+मातृ एवं शिशु स्वास्थ्य देखभाल पर नि: शुल्क प्रशिक्षण - 19 दिसंबर, 2018 को काटपाडी में हो रहा है।\n
+चिकित्सा निदान पर मुफ्त प्रशिक्षण - 19 दिसंबर, 2018 को काटपाडी में हो रहा है।\n
+टीबी निदान, उपचार पर मुफ्त प्रशिक्षण - 19 दिसंबर, 2018 को काटपाडी में हो रहा है।\n
+एचआईवी निदान उपचार पर मुफ्त प्रशिक्षण - 19 दिसंबर, 2018 को काटपाडी में हो रहा है।\n
+स्वाइन फ्लू निदान उपचार पर नि: शुल्क प्रशिक्षण - 19 दिसंबर, 2018 को काटपाडी में हो रहा है।</string>
+
+</resources>
